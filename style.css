@@ -1,0 +1,156 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+html,
+body{
+    line-height: 1.4px;
+    font-weight: 300px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(42, 46, 46);
+}
+
+.logo_container{
+    align-self: center;
+    padding-left: 600px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero{  
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(245, 242, 240);
+ }
+ .hero_image{
+    margin-top: 5px;
+    padding-left: 20px;
+ }
+
+.hero_image:hover{
+      transform: scale(0.98);
+}
+ .hero_content{
+    font-size: auto;
+    row-gap: 50px;
+    display: flex;
+    flex-direction: column;  
+ }
+.hero_content h1{
+    font-size: 35px;
+}
+.explore_btn{
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(11, 75, 53);
+    color:aliceblue;
+
+}
+.tag{
+    background-color: rgb(11, 75, 53);
+    padding: 10px 10px;
+    align-self: flex-start;
+    border-radius: 5px;
+}
+.explore_btn:hover{
+    opacity: 1;
+    transition: 1s ease-in-out;
+    background-color: black;
+    color:aliceblue;
+    cursor: pointer;
+}
+
+.features{
+    margin-top: 20px;
+    display: flex;
+    padding-left: 225px;
+    color: bisque;
+    gap: 250px;
+    background-color: rgb(11, 75, 53);
+    border-radius: 20px;
+    min-height: 130px; 
+}
+.feature_content{
+    margin-top: 10px;
+    text-align: center;
+    row-gap: 20px;
+    display:grid;
+    font-size: small;
+}
+.black_box{
+        margin-top: 5px;
+        position: relative;
+        background-color: black;
+        min-height: 100px;
+        color: blanchedalmond;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 20px;
+}
+.black_box h1{
+    padding-top: 50px;
+}
+.black_box:hover{
+    opacity: 1;
+    transition: 1s ease-in-out;
+    background-color: rgb(11, 75, 53);
+    color: black
+}
+.black_box2{
+
+    margin-top: 5px;
+    position: grid;
+    background-color:rgb(11, 75, 53);
+    min-height: 500px;
+    color: blanchedalmond;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+}
+.black_box2 h1{
+    padding-top: 25px;
+}
+.food_image{
+    padding-left: 175px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    size: 75px;
+    border-radius: 20px;
+}
+.food_image_content{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 15px;
+    font-style: oblique;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.food_image_content:hover{
+    color: black;
+}
+.food_image:hover{
+    transform: scale(1.01);
+    transition: 0.5 ease-in-out;
+}
+
+
+.footer_container{
+    min-height: 200px;
+    margin-top: 10px;
+}
+.footer_content{
+    display: flex;
+    padding-left: 200px;
+    gap: 50px;
+    padding-top: 30px;
+}
+.news_letter{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
